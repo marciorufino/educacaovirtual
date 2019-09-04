@@ -1,0 +1,85 @@
+#turmas{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.cabecalho-das-turmas{
+    width: auto;
+    height: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(47, 146, 125, 0.849);
+}
+.lista-de-materias{
+    display: block;
+    text-align: center;
+    width: auto;
+    list-style: none;
+    margin: 0px;
+}
+.lista-de-materias li{
+    background-color: rgba(13, 170, 233, 0.822);
+    display: inline-block;
+    height: 8%;
+    width: 16%;
+    padding: 2%;
+    margin: 0%;
+    margin-top: 4px;    
+    box-shadow: 1px 1px 1px rgba(68, 83, 68, 0.507);
+    transition: background-color 1s;
+}
+.lista-de-materias li:hover{
+    background-color: #ddd;
+}
+.lista-de-materias li a{
+    text-decoration: none;
+    color: black;
+}
+#horarios{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+#horarios h2{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    padding: 10px;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(47, 146, 125, 0.849);
+}
+#boletim{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    display: block;
+    width: auto;
+    height: 100%;
+    padding: 0px;
+}
+.tabela-horarios-boletim{
+    border: 1px solid #ddd;
+    font-size: 14pt;
+    text-align: center;
+    border-spacing: 0px;
+    width: 70%;
+    margin: 15px;
+    margin-left: 15%;
+    box-shadow: 1px 1px 2px rgba(00, 00, 00, 0.4)
+}
+.tabela-horarios-boletim *{
+    padding: 5px;
+}
+.muda-fundo{
+    background-color: #ddd;
+}
+#boletim h2{
+    margin-top: 10px; 
+    width: auto;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(47, 146, 125, 0.849);
+}

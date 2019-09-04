@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feira De Ciência</title>
+    <link rel="stylesheet" type="text/css" href="/CSS-1/estiloHeader.css"/>
+    <link rel="stylesheet" type="text/css" href="/CSS-1/estiloDadosAlunosEProfs.css"/>
+    <link rel="stylesheet" type="text/css" href="/CSS-1/estiloTurmas.css"/>
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>Educação Virtual E. E. J. M. P.</h1>
+            <a href="http://localhost:3000/"><imput id="botao-sair" type="button">Sair</imput></a>
+        </header>
+        <div id="dados-alunos">
+                <img src="imagens/perfil.PNG"/>
+                <table class="tabela-dados-do-aluno">
+                    <caption style="font-weight: 700">Dados do Aluno</caption>
+                    <tbody>
+                    <tr class="cor-fundo">
+                        <th>Nome</th><td colspan="5">Paulo</td>
+                    </tr>
+                    <tr>
+                        <th>Matrícula</th><td>201705422</td>
+                    </tr>
+                    <tr class="cor-fundo">
+                        <th>Ano</th><td>3°</td><th>Truma</th><td>B</td><th>Turno</th><td>Vespertino</td>
+                    </tr>
+                    <tr>
+                        <th>Telefone</th><td>(84) 99922-5555</td><th>Email</th><td>paulo_a@email.com</td>
+                    </tr>
+                    <tr class="cor-fundo">
+                        <th>Frequência</th><td colspan="5">86%</td>
+                    </tr>
+                </tbody>
+                </table>
+        </div>
+        <section id="turmas">
+            <h2 class="cabecalho-das-turmas">Turmas Virtuais</h2>
+            
+            <ul class="lista-de-materias">
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div>
+                        <h3>Português</h3>
+                        <h4>Prof. Valéria</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">    
+                    <div class="matematica">
+                        <h3>Matemática</h3>
+                        <h4>Prof. Vinícius</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="fisica">
+                        <h3>Física</h3>
+                        <h4>Prof. Antônio</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="quimica">
+                        <h3>Química</h3>
+                        <h4>Prof. Ricardo</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/turma-biologia-0003">
+                    <div class="biologia">
+                        <h3>Biologia</h3>
+                        <h4>Prof. Amélia</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="geografia">
+                        <h3>Geografia</h3>
+                        <h4>Prof. José Mária</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="historia">
+                        <h3>História</h3>
+                        <h4>Prof. Juliana</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="filosofia">
+                        <h3>Filosofia</h3>
+                        <h4>Prof. Carmélita</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="sociologia">
+                        <h3>Sociologia</h3>
+                        <h4>Prof. Zuleide</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="ingles">
+                        <h3>Inglês</h3>
+                        <h4>Prof. Guanabara</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="artes">
+                        <h3>Artes</h3>
+                        <h4>Prof. Mariana</h4>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/aluno-0001">
+                    <div class="educacao-fisica">
+                        <h3>Educação Física</h3>
+                        <h4>Prof. Marcílio</h4>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="horarios">
+            <h2>Horários</h2>
+                <table class="tabela-horarios-boletim">
+                <thead>
+                    <tr class="muda-fundo">
+                        <th>Hora</th>
+                        <th>Segunda-feira</th>
+                        <th>Terça-feira</th>
+                        <th>Quarta-feira</th>
+                        <th>Quinta-feira</th>
+                        <th>Sexta-feira</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>13:00 - 13:45</td>
+                            <td>Matemática</td>
+                            <td>Filosofia</td>
+                            <td>Português</td>
+                            <td>Física</td>
+                            <td>Física</td>
+                        </tr>
+                        <tr class="muda-fundo">
+                            <td>13:45 - 14:30</td>
+                            <td>Matemática</td>
+                            <td>Português</td>
+                            <td>Português</td>
+                            <td>Física</td>
+                            <td>Física</td>
+                        </tr>
+                        <tr>
+                            <td>14:40 - 15:25</td>
+                            <td>Matemática</td>
+                            <td>Português</td>
+                            <td>Química</td>
+                            <td>E. Física</td>
+                            <td>Química</td>
+                        </tr>
+                        <tr class="muda-fundo">
+                            <td>15:25 - 16:10</td>
+                            <td>História</td>
+                            <td>Biologia</td>
+                            <td>Química</td>
+                            <td>E. Física</td>
+                            <td>Química</td>
+                        </tr>
+                        <tr>
+                            <td>16:30 - 17:15</td>
+                            <td>História</td>
+                            <td>Biologia</td>
+                            <td>Geografia</td>
+                            <td>Biologia</td>
+                            <td>Inglês</td>
+                        </tr>
+                        <tr class="muda-fundo">
+                            <td>16:15 - 18:00</td>
+                            <td>Artes</td>
+                            <td>Matemática</td>
+                            <td>Geografia</td>
+                            <td>Biologia</td>
+                            <td>Inglês</td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="boletim">
+            <h2>Boletim</h2>
+            <table class="tabela-horarios-boletim">
+                <thead>
+                        <tr class="muda-fundo">
+                            <th>Disciplina</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                            <th>Nota 4</th>
+                            <th>Média Anual</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Português</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr class="muda-fundo">
+                        <td>Matemática</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Química</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr class="muda-fundo">
+                        <td>Física</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Biologia</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr class="muda-fundo">
+                        <td>Geografia</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Filosofia</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr class="muda-fundo">
+                        <td>Artes</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>História</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr class="muda-fundo">
+                        <td>E. Física</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Inglês</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer id="rodape">
+
+        </footer>
+    </div>
+</body>
+</html>
